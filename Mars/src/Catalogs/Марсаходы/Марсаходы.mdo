@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ace74bf6-3f46-4ba8-99b8-60ec993f882e">
+  <producedTypes>
+    <objectType typeId="a956f4ec-5522-46f2-8b6f-2f381ae57213" valueTypeId="e6b22ef1-8206-4044-927f-6057076d1fb7"/>
+    <refType typeId="6e40b481-440d-4d78-85dd-3ff4d09b6a56" valueTypeId="3d66c4eb-f718-4ca6-b9c1-0a37054a6fb4"/>
+    <selectionType typeId="27371747-ec0f-4376-86de-19d8540a5243" valueTypeId="50faea83-8a1a-4acc-bc15-962617e83f61"/>
+    <listType typeId="45bd9447-47d5-4c6a-9d6e-9c568f2d56bf" valueTypeId="508d65c1-32a3-49b5-be43-e9293cfc5861"/>
+    <managerType typeId="cbe7fb83-868e-48f7-95f7-3cd34a5f26a7" valueTypeId="a9d36dd8-627d-4d03-9855-699658c30f95"/>
+  </producedTypes>
+  <name>Марсаходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марсаходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Марсаходы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Марсаходы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Марсаход</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a23c3749-aaef-4315-988b-165ee392f25d">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1b8667c-b216-4752-8025-b4a64623ba7d">
+    <name>landing_date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата призимления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="219a146f-f51d-433e-a1dc-bca34a7fc136">
+    <name>launch_date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97c28679-3e23-46ba-90e8-4cd82c6b5907">
+    <name>status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыМарсахода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

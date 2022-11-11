@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="482cbd81-3289-43fc-9dd3-3c3780e451dc">
+  <producedTypes>
+    <objectType typeId="efb58234-4dbc-4957-830d-130a146bd720" valueTypeId="1debb8d9-cf31-4514-9fe7-6cc5bc0dcf5d"/>
+    <refType typeId="ed4f614d-47ec-4a82-9c04-5b675ead7a05" valueTypeId="14775b2a-cc8e-479f-801d-f04ecd0307fc"/>
+    <selectionType typeId="3dd083e4-c175-4e91-a400-259d320dbda9" valueTypeId="cef90e8e-951a-4f88-b481-dcd96df2b626"/>
+    <listType typeId="bbe30f12-270e-4aef-8f77-3f2452c59ed8" valueTypeId="5195b8a5-b748-41e4-9fd2-339217c51fd8"/>
+    <managerType typeId="7195bcbd-3d47-4163-95ea-335785a668c2" valueTypeId="c5f12b28-a647-4ca2-b6c7-a2bd30f8f3df"/>
+  </producedTypes>
+  <name>КамерыМарсаходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Камеры марсаходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КамерыМарсаходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КамерыМарсаходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марсаход</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Камера марсахода</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Марсаходы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="33dd126b-7253-4617-b9d5-4cf5e8f7a6cb">
+    <name>full_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47fd9ca3-a1af-4f91-84d0-cd67461b3f5b">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
