@@ -1,0 +1,1 @@
+C:\tools\sonar-scanner\bin\sonar-scanner.bat -D"sonar.projectKey=Mars" -D"sonar.login=06edd9d6ba3db19905432f3c0098011ead11d5f4"
