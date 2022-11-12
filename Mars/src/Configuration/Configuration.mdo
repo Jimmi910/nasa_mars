@@ -48,7 +48,9 @@
   <commonModules>CommonModule.ВызовАпиСервисаСервер</commonModules>
   <commonModules>CommonModule.МодульФоновыхЗаданийСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСерверПовтИсп</commonModules>
   <constants>Constant.АпиКлюч</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <catalogs>Catalog.КамерыМарсаходов</catalogs>
   <catalogs>Catalog.Марсаходы</catalogs>
   <catalogs>Catalog.СнимкиСКамер</catalogs>
