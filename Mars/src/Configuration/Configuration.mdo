@@ -44,7 +44,10 @@
   <subsystems>Subsystem.Настройки</subsystems>
   <subsystems>Subsystem.Сервис</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
   <commonModules>CommonModule.ВызовАпиСервисаСервер</commonModules>
+  <commonModules>CommonModule.МодульФоновыхЗаданийСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <constants>Constant.АпиКлюч</constants>
   <catalogs>Catalog.КамерыМарсаходов</catalogs>
   <catalogs>Catalog.Марсаходы</catalogs>
