@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a08417d0-016c-4ad8-9b1f-702738529cce">
+  <producedTypes>
+    <refType typeId="e7fea58e-1ff3-4e15-ae75-3ec010e935a4" valueTypeId="0a497cbc-67ab-4a2d-9e7d-e63c71648968"/>
+    <listType typeId="00a7e6c6-31ba-47de-b578-511d87a5d20a" valueTypeId="957e7d85-f3ce-4984-be2a-095a6a5e29df"/>
+    <managerType typeId="0be93b8c-3814-4137-9d84-e5db7df9a487" valueTypeId="aa3ff9c4-670c-4a96-bd90-5a9f40b2a3c3"/>
+  </producedTypes>
+  <name>СтатусыМарсахода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы марсахода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b56185d3-daf0-40a0-851a-3336f8646549">
+    <name>Active</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66591f28-5211-4007-9a2f-a08c41fabf3f">
+    <name>NoActive</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

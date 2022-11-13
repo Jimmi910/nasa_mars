@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e949a97-88b3-47c9-8bc7-dd6426ff8e4f">
+  <producedTypes>
+    <selectionType typeId="c77cecc5-c2ae-44f5-921d-9f3d9d5ed06c" valueTypeId="8c8652f4-6af8-4117-8b75-df80d11ab099"/>
+    <listType typeId="85154023-5aa3-47f1-a950-69f6a8fb55a8" valueTypeId="46a439f6-c895-4bb3-8b6f-69e57f5e695c"/>
+    <managerType typeId="93fb1409-a506-4b83-b9e3-335ae87300e2" valueTypeId="02312760-cafc-441d-9569-c838edc7fc9d"/>
+    <recordSetType typeId="e3269e60-55e9-47bd-9230-85b6b5038a44" valueTypeId="f12b2321-fc18-47b3-8dec-216fe2992793"/>
+    <recordKeyType typeId="4aa9834c-da84-4e7a-a00b-f41995529b13" valueTypeId="b84fc62c-2dbb-4b35-93a3-130541c7705a"/>
+    <recordType typeId="61f79daa-efb4-4f3b-8a1c-0d4db91ff460" valueTypeId="64dbe667-c84f-430a-a798-af2de0c3434f"/>
+    <recordManagerType typeId="b7c9a029-7e8b-418f-aa09-ea99adda6714" valueTypeId="cc3149d5-d9f5-4cbb-80dd-bd2080f0cb3a"/>
+  </producedTypes>
+  <name>СоответствиеЗемногоВремениСолам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие земного времени солам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Представление времени</value>
+  </recordPresentation>
+  <dimensions uuid="c121697c-18a8-4068-9682-dc6196c85391">
+    <name>ДатаЗемли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата земли</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8b6fad46-3162-4a48-a863-138c1ec0cb47">
+    <name>Сол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сол</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

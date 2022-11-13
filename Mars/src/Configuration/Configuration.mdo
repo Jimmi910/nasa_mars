@@ -41,4 +41,21 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonModules>CommonModule.ВызовАпиСервисаСервер</commonModules>
+  <commonModules>CommonModule.МодульФоновыхЗаданийСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСерверПовтИсп</commonModules>
+  <constants>Constant.АпиКлюч</constants>
+  <commonForms>CommonForm.ПросмотрФото</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.КамерыМарсоходов</catalogs>
+  <catalogs>Catalog.Марсоходы</catalogs>
+  <catalogs>Catalog.СнимкиСКамер</catalogs>
+  <enums>Enum.СтатусыМарсахода</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаСнимковЗаПериод</dataProcessors>
+  <informationRegisters>InformationRegister.СоответствиеЗемногоВремениСолам</informationRegisters>
 </mdclass:Configuration>
