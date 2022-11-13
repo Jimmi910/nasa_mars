@@ -21,7 +21,7 @@
 	
 	СтруктураФотографий.Вставить("photos", МассивФото);
 	
-	Соединение = Новый HTTPСоединение("api.nasa.gov", , , , , Истина);
+	Соединение = Новый HTTPСоединение("api.nasa.gov", , , , , , Новый ЗащищенноеСоединениеOpenSSL);
 	
 	АдресРесурса = "mars-photos/api/v1/rovers/curiosity/photos?earth_date={Дата}&api_key={api_key}";
 	

@@ -46,6 +46,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СнимкиСКамер.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="236db1d5-140d-4772-bb86-c06667e7cf41">
     <name>earth_date</name>
     <synonym>
@@ -114,4 +115,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e0a51c82-79a3-4ba0-abcd-78f4c7775661">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
