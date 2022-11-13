@@ -51,8 +51,8 @@
   <commonModules>CommonModule.ОбщегоНазначенияСерверПовтИсп</commonModules>
   <constants>Constant.АпиКлюч</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
-  <catalogs>Catalog.КамерыМарсаходов</catalogs>
-  <catalogs>Catalog.Марсаходы</catalogs>
+  <catalogs>Catalog.КамерыМарсоходов</catalogs>
+  <catalogs>Catalog.Марсоходы</catalogs>
   <catalogs>Catalog.СнимкиСКамер</catalogs>
   <enums>Enum.СтатусыМарсахода</enums>
   <dataProcessors>DataProcessor.ЗагрузкаСнимковЗаПериод</dataProcessors>

@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.КамерыМарсаходов</content>
-  <content>Catalog.Марсаходы</content>
+  <content>Catalog.КамерыМарсоходов</content>
+  <content>Catalog.Марсоходы</content>
   <content>Catalog.СнимкиСКамер</content>
 </mdclass:Subsystem>

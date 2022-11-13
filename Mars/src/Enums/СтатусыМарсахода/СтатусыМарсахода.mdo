@@ -13,10 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="b56185d3-daf0-40a0-851a-3336f8646549">
-    <name>active</name>
+    <name>Active</name>
     <synonym>
       <key>ru</key>
       <value>Активный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66591f28-5211-4007-9a2f-a08c41fabf3f">
+    <name>NoActive</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активный</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

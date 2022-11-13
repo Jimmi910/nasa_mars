@@ -36,7 +36,7 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.КамерыМарсаходов</owners>
+  <owners>Catalog.КамерыМарсоходов</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -93,15 +93,16 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="01097947-3676-4296-abf9-5770b6e0ac4f">
-    <name>URL</name>
+    <name>img_src</name>
     <synonym>
       <key>ru</key>
-      <value>URL</value>
+      <value>Img src</value>
     </synonym>
     <type>
       <types>String</types>

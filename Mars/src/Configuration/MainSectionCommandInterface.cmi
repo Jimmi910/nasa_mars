@@ -8,10 +8,10 @@
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.КамерыМарсаходов.StandardCommand.OpenList</commands>
+      <commands>Catalog.КамерыМарсоходов.StandardCommand.OpenList</commands>
       <commands>InformationRegister.СоответствиеЗемногоВремениСолам.StandardCommand.OpenList</commands>
       <commands>Catalog.СнимкиСКамер.StandardCommand.OpenList</commands>
-      <commands>Catalog.Марсаходы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Марсоходы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>

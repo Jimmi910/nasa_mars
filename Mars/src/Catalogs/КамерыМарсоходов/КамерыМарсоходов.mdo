@@ -7,14 +7,14 @@
     <listType typeId="bbe30f12-270e-4aef-8f77-3f2452c59ed8" valueTypeId="5195b8a5-b748-41e4-9fd2-339217c51fd8"/>
     <managerType typeId="7195bcbd-3d47-4163-95ea-335785a668c2" valueTypeId="c5f12b28-a647-4ca2-b6c7-a2bd30f8f3df"/>
   </producedTypes>
-  <name>КамерыМарсаходов</name>
+  <name>КамерыМарсоходов</name>
   <synonym>
     <key>ru</key>
-    <value>Камеры марсаходов</value>
+    <value>Камеры марсоходов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.КамерыМарсаходов.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.КамерыМарсаходов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КамерыМарсоходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КамерыМарсоходов.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -36,7 +36,7 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Марсаходы</owners>
+  <owners>Catalog.Марсоходы</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -78,6 +78,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
