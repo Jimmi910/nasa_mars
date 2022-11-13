@@ -301,6 +301,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
+      <pictureSize>Proportionally</pictureSize>
       <fileDragMode>AsFileRef</fileDragMode>
     </extInfo>
   </items>

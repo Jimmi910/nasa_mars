@@ -21,25 +21,6 @@
     <key>ru</key>
     <value>Представление времени</value>
   </recordPresentation>
-  <resources uuid="e15a40c3-fca7-4c41-bca0-c628c4e6c37e">
-    <name>Сол</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сол</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <dimensions uuid="c121697c-18a8-4068-9682-dc6196c85391">
     <name>ДатаЗемли</name>
     <synonym>
@@ -59,5 +40,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8b6fad46-3162-4a48-a863-138c1ec0cb47">
+    <name>Сол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сол</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
 </mdclass:InformationRegister>
